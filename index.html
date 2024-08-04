@@ -28,14 +28,65 @@
         </p>
         <label for="number" class="label">Number of dice:</label>
         <input type="number" min="1" id="number1"><br>
-        <button  onclick= "rollTheDice()"  class="button">Roll</button>
+        <button  onclick= "rollTheDice()"  class="rollbutton">Roll</button>
         <div id="diceResult" ></div>
         <div id="diceImages"></div></div>
-        
+    </div>
 
-
+   <section class="vintage">
+    
+        <div class="clock-container">
+            <div id="text">  00:00:00</div>
+            <div>
+                <img src="./counterImages/cl-removebg-preview.png" class="clock">
+            </div>
+            <div>
+                <img src="./counterImages/b-removebg-preview.png" alt="bow" class="bow">
+            </div>
 
     </div>
+    <div class="calc">
+        <div>
+            <input  id="display" readonly>
+        </div>
+        <div id="keys">
+            
+            <button onclick="appendText('+')" class="button">+</button>
+           <button onclick="appendText('7')" class="button">7</button>
+           <button onclick="appendText('8')" class="button">8</button>
+           <button onclick="appendText('9')" class="button">9</button>
+           <button onclick="appendText('-')" class="button">-</button>
+           <button onclick="appendText('6')" class="button">6</button>
+           <button onclick="appendText('5')" class="button">5</button>
+           <button onclick="appendText('4')" class="button">4</button>
+           <button onclick="appendText('*')" class="button">*</button>
+           <button onclick="appendText('1')" class="button">1</button>
+           <button onclick="appendText('2')" class="button">2</button>
+           <button onclick="appendText('3')" class="button">3</button>
+           <button onclick="appendText('/')" class="button">/</button>
+           <button onclick="appendText('0')" class="button">0</button>
+           <button onclick="appendText('.')" class="button">.</button>
+           <button onclick="calculate()" class="button">=</button>
+           <button onclick="clearDisplay()" class="button">C</button>
+    
+    
+    
+    
+    
+       </div>
+    
+    </div>
+    
+   </section>
+
+  
+
+   <section class="events">
+    <div id="myBox">
+        <p id="hlo"><img src="./counterImages/flirt.jpg" class="flirt" id="flirty"> <span class="ms-5 srkr" id="imgi">kiddan sarkaar</span></p>
+
+    </div>
+   </section>
 
 
 

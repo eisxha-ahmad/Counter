@@ -70,7 +70,7 @@
     width: 700px;
     left: 20%;
 }
-.button{
+.rollbutton{
     width: 600px;
     height: 50px;
     border-radius: 20px;
@@ -86,4 +86,118 @@
 #diceResult{
     font-size: 20px;
     font-family: sans-serif;
+}
+.clock-container{
+    position: relative;
+    top: 80px;
+    justify-content: center;
+    text-align: center;
+}
+#text{
+    font-size: 70px;
+    padding: 50px;
+    color: white;
+    background-color:rgb(121, 99, 68);
+    width: 600px;
+    text-align: center;
+    position: relative;
+    left: 26%;
+    border-radius: 30px;
+
+}
+.vintage{
+    background-color: rgb(102, 79, 47);
+    position: relative;
+    top: -300px;
+    height: 930px;
+}
+.clock{
+    width: 480px;
+    height: 480px;
+    border-radius: 20px;
+    position: relative;
+    top: -340px;
+    left: -420px;
+
+
+}
+.bow{
+    
+        width: 350px;
+        height: 350px;
+        border-radius: 20px;
+        position: relative;
+        top: -830px;
+        left: 270px;
+    
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(8,0.02fr);
+    gap: 10px;
+    padding: 13px;
+}
+#display{
+    width: 54%;
+    height: 70px !important;
+    margin-left: 2px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(121, 99, 68);
+    color:white;
+    outline: solid 1px rgb(75, 54, 25);
+    padding-left: 13px;
+    font-size: 20px;
+}
+
+.calc{
+    
+    position: relative;
+    top: -700px;
+    margin-left: 400px;
+   
+}
+.button{
+    width: 50px !important;
+    height:50px !important;
+    border-radius: 15px !important;
+    font-size: 20px !important;
+    color: white;
+    background-color:rgb(75, 54, 25);
+    border: none;
+}
+.button:hover{
+    background-color: rgb(90, 67, 36);
+
+}
+
+#myBox{
+    width: 300px;
+    height: 200px;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+
+}
+.srkr{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: -2px;
+    width: 200px;
+}
+.events{
+    position: relative;
+    top: -250px;
+    margin-left: 500px;
+}
+.flirt{
+    width: 250px;
+    height: 250px;
+}
+#hlo{
+    position: relative;
+    top: 0px;
 }
